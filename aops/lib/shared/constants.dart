@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+const transparent = Colors.transparent;
+
 const primaryColor = Color.fromRGBO(179, 24, 45, 1);
 const secondaryColor = Color.fromRGBO(0, 0, 0, 0.885);
 const bgColor = Color.fromRGBO(255, 255, 255, 1);
