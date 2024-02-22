@@ -1,6 +1,7 @@
 import 'package:aops/shared/constants.dart';
 import 'package:flutter/material.dart';
 
+// Clase  que se encarga de mostrar los botones para la interfaz gráfica del usuario.
 class WelcomeButton extends StatelessWidget {
   const WelcomeButton({super.key, this.buttonText});
   final String? buttonText;

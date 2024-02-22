@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+
+// Clase principal de la app, es una sencilla pantalla
 class CustomScaffold extends StatelessWidget {
   const CustomScaffold({super.key, this.child});
 final Widget? child;
@@ -14,7 +16,7 @@ final Widget? child;
       extendBodyBehindAppBar: true,
       body: Stack(
         children: [
-          Image.asset('assets/images/background.png',
+          Image.asset('assets/images/wallpaper.jpg', //  Imagen de fondo
           fit: BoxFit.cover,
           width: double.infinity,
           height: double.infinity,),
